@@ -1,0 +1,33 @@
+{
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/CatVodTVOfficial/CatVodTVJarLoader/main/jar/custom_spider.jar",
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing",
+  "sites": [
+    {
+      "key": "csp_xbpq",
+      "name": "新笔趣阁",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "homeUrl": "https://www.xbiquge.tw",
+        "cateManual": {
+          "玄幻小说": "xuanhuan",
+          "修真小说": "xiuzhen",
+          "都市小说": "dushi",
+          "穿越小说": "chuanyue"
+        }
+      }
+    }
+  ],
+  "parses": [
+    {
+      "name": "Json解析",
+      "type": 1,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    }
+  ],
+  "lives": [],
+  "rules": []
+}
